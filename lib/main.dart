@@ -1,5 +1,6 @@
 import 'package:egy_go/Core/Api/simple_bloc_observer.dart';
 import 'package:egy_go/features/layout/presentation/view/layout_view.dart';
+import 'package:egy_go/features/onBoarding/presentation/view/on_boarding_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "Egy_GO",
       debugShowCheckedModeBanner: false,
-      home: LayoutView(),
+      home: OnBoardingView(),
     );
   }
 }
